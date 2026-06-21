@@ -16,4 +16,4 @@ xgboost==2.0.3
 beautifulsoup4==4.12.3
 lxml==5.2.2
 requests==2.32.3
-playwright==1.44.0s
+playwright==1.44.0
