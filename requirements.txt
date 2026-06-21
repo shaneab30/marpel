@@ -1,0 +1,19 @@
+# === Backend Flask: Phishing URL Detector ===
+# PENTING: scikit-learn & xgboost HARUS sama dengan versi saat melatih model di
+# notebook (cek dengan: pip show scikit-learn xgboost). Versi pickle yang beda
+# bisa membuat .pkl gagal dimuat. Sesuaikan angka di bawah bila perlu.
+
+flask==3.0.3
+flask-cors==4.0.1
+gunicorn==21.2.0
+
+joblib==1.3.2
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+xgboost==2.0.3
+
+beautifulsoup4==4.12.3
+lxml==5.2.2
+requests==2.32.3
+playwright==1.44.0s
